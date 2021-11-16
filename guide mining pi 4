@@ -8,3 +8,21 @@ Langkah-langkah yang harus di lakukan seperti berikut ini :
 7.) sudo ./build.sh
 8.) Perintah untuk menjalankan minning : ./cpuminer -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45700 -u nikofigit@gmail.com
 
+6. Sudo apt-get install git build-essential cmake libuv1-dev layar libssl-dev libhwloc-dev
+7. git clone https://github.com/xmrig/xmrig.git
+8. cd xmrig
+9. mkdir build
+10. pembuatan cd
+11. buatlah..
+12. membuat
+13. instal Dompet Atom
+14. mendapatkan SHIB menerima alamat
+15. dapatkan file xmrig config.json
+16. edit file config.json untuk menambahkan alamat pool dan dompet
+    "url": "rx.unmineable.com:3333", 
+    "pengguna": "SHIB:YOUR_SHIB_ADDRESS.PI4#x2tc-x2eg",
+17. edit bagian cpu file config.json untuk mengatur jumlah utas CPU (opsional)
+    "rx": [0, 1, 2],
+18. screen -S shib ./xmrig -c config.json
+19. Ctrl+a d untuk menempatkan sesi layar ke latar belakang
+20. screen -r shib (untuk mengembalikan sesi layar)
