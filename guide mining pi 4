@@ -1,0 +1,9 @@
+Langkah-langkah yang harus di lakukan seperti berikut ini :
+1.) sudo apt-get update && sudo apt-get upgrade -y
+2.) sudo apt install git automake autoconf libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev 
+3.) sudo git clone https://github.com/carolinedunn/cpumi...
+4.) cd cpuminer-multi
+5.) sudo ./autogen.sh
+6.) sudo ./configure
+7.) sudo ./build.sh
+8.) Perintah untuk menjalankan minning : ./cpuminer -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45700 -u YOUR_EMAIL
